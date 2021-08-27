@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.body_style {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./pictures/home_bg2.jpg");
+  background-size: cover;
+}
+
+.form_pos {
+  float: right;
+  color: antiquewhite;
+}
+
+.table_style {
+  margin-top: 5vh;
+}
+
+.title {
+  font-size: 4.5vh;
+  margin-right: 50vh;
+  margin-top: 15vh;
+  font-family: "Roboto Slab", serif;
+}
+
+.underline {
+  border-bottom: 0.5vh solid salmon;
+  width: 55vh;
+}
+
+.field_name {
+  font-size: 2.5vh;
+  font-family: "Roboto Slab", serif;
+}
+
+.row_style {
+  margin-top: 5vh;
+}
+
+.field_box {
+  padding: 0.5vh 1vh;
+  font-family: "Domine", serif;
+  font-size: 2vh;
+  width: 35vh;
+  height: 3vh;
+  margin-left: 7vh;
+  outline: none;
+  border: none;
+  border-radius: 0.5vh;
+  box-shadow: rgb(156, 156, 156) 0 0 1.2vh;
+}
+
+.field_box:focus {
+  box-shadow: none;
+}
+
+.btn_style {
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  height: auto;
+  padding: 1vh 1.5vh;
+  width: auto;
+  border-radius: 3vh;
+  font-size: 1.9vh;
+  letter-spacing: 0.5vh;
+  transition: 0.5s;
+  margin-top: 2vh;
+  cursor: pointer;
+  color: black;
+  font-family: "Domine", serif;
+  background: rgb(2, 214, 214);
+}
+
+.btn_style:hover {
+  font-size: 2vh;
+  background: rgb(2, 214, 214);
+  box-shadow: 0 0 10px rgb(2, 214, 214), 0 0 40px rgb(2, 214, 214),
+    0 0 10px rgb(2, 214, 214);
+}
+
+.btn_mar {
+  margin-left: 7vh;
+}
+
+.btn_mar2 {
+  margin-left: 2vh;
+}
